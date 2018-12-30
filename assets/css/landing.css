@@ -93,3 +93,19 @@ figure.boxscreenshot img{
   max-width: 1024px;
   height: auto;
 }
+
+@media only screen and (min-width: 375px){
+    .noselect{
+      margin-top: 30px;
+    }
+}
+@media only screen and (min-width: 500px){
+    .noselect{
+      margin-top: 20px;
+    }
+}
+
+#precious-banner{
+  display: block;
+  margin: 0 auto;
+}

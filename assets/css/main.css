@@ -594,13 +594,15 @@ body:not(.page-about) .header-with-hero .nav a.active:after,body:not(.page-about
   font-size: 14px;
 }
 
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 375px){
     .page-home .home-title:before{
+      margin-top: 200px;
         content:"Hi! "
     }
 }
 @media only screen and (min-width: 500px){
     .page-home .home-title:before{
+
         content:"Hello! "
     }
 }
